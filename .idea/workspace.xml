@@ -22,8 +22,7 @@
       <change beforePath="$PROJECT_DIR$/../SupportBank" beforeDir="false" afterPath="$PROJECT_DIR$/../SupportBank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ZooManagementSystem-Java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZooManagementSystem-Java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apphack/apphack-health-rewards-ui" beforeDir="false" afterPath="$PROJECT_DIR$/../apphack/apphack-health-rewards-ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../generics_softwire_sk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../generics_softwire_sk/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../generics_softwire_sk/out/production/generics_softwire_sk/META-INF/generics_softwire_sk.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../generics_softwire_sk/out/production/generics_softwire_sk/com/company/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/../generics_softwire_sk/out/production/generics_softwire_sk/com/company/Apple.class" afterDir="false" />
@@ -44,21 +43,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="110">
               <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -83,8 +81,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/stylesheet.css" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
@@ -163,12 +161,12 @@
       <option name="presentableId" value="Default" />
       <updated>1581953150047</updated>
       <workItem from="1581953152115" duration="10035000" />
-      <workItem from="1582891679982" duration="362000" />
+      <workItem from="1582891679982" duration="887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10397000" />
+    <option name="totallyTimeSpent" value="10922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="961" extended-state="0" />
@@ -223,17 +221,17 @@
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
