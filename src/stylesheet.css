@@ -1,39 +1,56 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Inconsolata", 'Open Sans', sans-serif;
+    background: linear-gradient(to top, #2196f3, transparent 100%);
 }
 
-.grid-container {
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menu .grid-item {
+    font-size: 42px;
+    border-top: 1px solid white;
+    border-bottom: 1px white solid;
+}
+
+.main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-.grid-container p {
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 .grid-item {
     text-align: center;
+    color: white;
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    min-height: 100vh;
 }
 
 #name {
-    font-size: 48px;
+    font-size: 60px;
 }
 
 .header img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
 }
 
 #title {
-    font-size: 28px;
+    font-size: 35px;
 }
 
 #company {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #website-list {
@@ -43,11 +60,11 @@ body {
 }
 
 #website-list a {
-    color: black;
+    color: white;
 }
 
 #website-list a:visited {
-    color: black;
+    color: white;
 }
 
 #fav-food-list {
