@@ -1,6 +1,6 @@
 body {
     font-family: "Inconsolata", 'Open Sans', sans-serif;
-    background: linear-gradient(to top, #2196f3, transparent 100%);
+    background: linear-gradient(to top, white, transparent 250%);
 }
 
 .menu {
@@ -10,8 +10,26 @@ body {
 
 .menu .grid-item {
     font-size: 42px;
-    border-top: 1px solid white;
-    border-bottom: 1px white solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.menu .grid-item a {
+    text-decoration: none;
+}
+
+body .menu .grid-item a:hover {
+
+}
+
+body .menu .grid-item a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.main .right {
+    padding-right: 50px;
+    padding-left: 50px
 }
 
 .main {
@@ -19,11 +37,15 @@ body {
     grid-template-columns: 1fr 1fr;
     margin-top: 50px;
     padding-bottom: 50px;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 500px 500px 500px;
 }
 
 .grid-item {
     text-align: center;
-    color: white;
+    color: black;
+    font-size: 22px;
 }
 
 .header {
@@ -33,6 +55,7 @@ body {
     align-items: center;
     text-align: center;
     min-height: 100vh;
+    color: black;
 }
 
 #name {
@@ -43,6 +66,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 75px;
+    border: 1px black solid;
 }
 
 #title {
@@ -60,11 +84,11 @@ body {
 }
 
 #website-list a {
-    color: white;
+    color: black;
 }
 
 #website-list a:visited {
-    color: white;
+    color: black;
 }
 
 #fav-food-list {
@@ -82,3 +106,63 @@ body {
 .sub-title {
     font-size: 24px;
 }
+
+.main .grid-item {
+}
+
+@media (max-width: 900px) {
+    body .main {
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+        justify-content: center;
+    }
+
+    body .menu {
+        grid-template-columns: 1fr;
+        border-top: 1px solid black;
+    }
+
+    .menu .grid-item {
+        font-size: 42px;
+        border-top: none;
+        border-bottom: 1px black solid;
+    }
+
+    #name {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #title {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media (max-width: 364px) {
+    body .main .grid-item {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 365px) and (max-width: 900px) {
+    body .main .grid-item {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 425px) {
+    #name {
+        font-size: 42px;
+    }
+
+    #title {
+        font-size: 25px;
+    }
+
+    #company {
+        font-size: 18px;
+    }
+}
+
