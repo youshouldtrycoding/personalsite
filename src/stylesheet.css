@@ -1,7 +1,13 @@
 body {
     font-family: "Inconsolata", 'Open Sans', sans-serif;
-    background: linear-gradient(to top, white, transparent 250%);
+    background: linear-gradient(to right, wheat, transparent 200%);
+    padding-right: 0;
 }
+
+/*body hr {*/
+/*    max-width: 100%;*/
+/*    border-color: black;*/
+/*}*/
 
 .menu {
     display: grid;
@@ -14,8 +20,9 @@ body {
     border-bottom: 1px black solid;
 }
 
-.menu .grid-item a {
+body .menu .grid-item a {
     text-decoration: none;
+    color: black;
 }
 
 body .menu .grid-item a:hover {
@@ -28,14 +35,13 @@ body .menu .grid-item a:visited {
 }
 
 .main .right {
-    padding-right: 50px;
-    padding-left: 50px
+    padding-right: 80px;
+    padding-left: 80px
 }
 
 .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 50px;
     padding-bottom: 50px;
     justify-items: center;
     align-items: center;
@@ -66,7 +72,6 @@ body .menu .grid-item a:visited {
     width: 150px;
     height: 150px;
     border-radius: 75px;
-    border: 1px black solid;
 }
 
 #title {
@@ -113,8 +118,12 @@ body .menu .grid-item a:visited {
 @media (max-width: 900px) {
     body .main {
         grid-template-columns: 1fr;
-        grid-template-rows: max-content;
+        grid-template-rows: min-content;
         justify-content: center;
+    }
+
+    .right {
+        padding-bottom: 100px;
     }
 
     body .menu {
