@@ -1,7 +1,6 @@
 body {
     font-family: "Inconsolata", 'Open Sans', sans-serif;
     background: linear-gradient(to right, wheat, transparent 200%);
-    padding-right: 0;
 }
 
 /*body hr {*/
@@ -35,8 +34,8 @@ body .menu .grid-item a:visited {
 }
 
 .main .right {
-    padding-right: 80px;
-    padding-left: 80px
+    padding-right: 100px;
+    padding-left: 100px
 }
 
 .main {
@@ -120,6 +119,11 @@ body .menu .grid-item a:visited {
         grid-template-columns: 1fr;
         grid-template-rows: min-content;
         justify-content: center;
+    }
+
+    .main .right {
+        padding-right: 30px;
+        padding-left: 30px
     }
 
     .right {
