@@ -71,6 +71,7 @@ body .menu .grid-item a:visited {
     width: 150px;
     height: 150px;
     border-radius: 75px;
+    border: 1px solid white;
 }
 
 #title {
